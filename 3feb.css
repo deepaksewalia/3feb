@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Red Rose', cursive; */
+    font-family: 'Dela Gothic One', cursive;
+}
+body{
+    background-image: linear-gradient(rgb(0,0,0,0.50),rgb(0,0,0,0.50)),url(../3feb/assets/pexels-maxyne-barcel-10402282\ 1.png);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 15px 20px; */
+    padding: 30px 40px;
+    line-height: 68px;
+
+}
+
+#logo{
+width: 95px;
+cursor: pointer;
+}
+.list {
+    list-style: none;
+    color: #ffc233;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 42px;
+}
+.list-item{
+ 
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+.order-btn{
+    background-color: #ff505f;
+    color: white;
+    padding: 12px 32px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.hero-section{
+    max-width: 932px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 90px;
+    margin: 0 auto;
+    
+}
+.heading{
+    color: #ffc233;
+    font-weight: 900;
+    font-size: 35px;
+   margin: 84px 70px 20px 70px;
+   text-align: center;
+}
+.read-btn button{
+    color: white;
+    background-color: #ff505f;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+
+}
+.footer img{
+    width: 104px;
+    position: fixed;
+    right: 29px;
+    bottom: 20px;
+}
